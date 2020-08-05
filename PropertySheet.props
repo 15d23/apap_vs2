@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\Library\OpenCV\opencv_2_13_6\vs2019\install\include\opencv;D:\Library\OpenCV\opencv_2_13_6\vs2019\install\include;D:\Library\OpenCV\opencv_2_13_6\vs2019\install\include\opencv2;d:\Library\eigen\eigen_3_3_7\build_vs\install\Eigen3\include\eigen3\;d:\Library\vlfeat\vlfeatbin_0_9_2_1\vl\;d:\Library\SiftGPU_vs\src\SiftGPU\;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Library\OpenCV\opencv_2_13_6\vs2019\install\lib;d:\Library\SiftGPU_vs\lib\;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>k</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_calib3d2413d.lib;
+opencv_flann2413d.lib;
+opencv_legacy2413d.lib;
+opencv_ocl2413d.lib;
+opencv_ts2413d.lib;
+opencv_contrib2413d.lib;
+opencv_gpu2413d.lib;
+opencv_ml2413d.lib;
+opencv_photo2413d.lib;
+opencv_video2413d.lib;
+opencv_core2413d.lib;
+opencv_highgui2413d.lib;
+opencv_nonfree2413d.lib;
+opencv_stitching2413d.lib;
+opencv_videostab2413d.lib;
+opencv_features2d2413d.lib;
+opencv_imgproc2413d.lib;
+opencv_objdetect2413d.lib;
+opencv_superres2413d.lib;vl.lib;SIFTGPU_d.lib
+;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>d:\Library\vlfeat\vlfeatbin_0_9_2_1\bin\win64\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
